@@ -196,6 +196,15 @@
 # }
 # 
 # alias cd=cd_func
+
+#customize environment variables
+export vsa="10.141.50.248"
+
+#alias
 alias go2dev="ssh c4dev@10.244.124.248"
 alias go2spa="ssh root@10.141.44.71"
+alias go2vsa='ssh root@$vsa'
 alias ll="ls -al"
+
+
+
