@@ -206,5 +206,5 @@ alias go2spa="ssh root@10.141.44.71"
 alias go2vsa='ssh root@$vsa'
 alias ll="ls -al"
 alias tmux="tmux -2"
-
+#EOF
 
