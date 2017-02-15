@@ -199,11 +199,13 @@
 
 #customize environment variables
 export vsa="10.141.50.248"
+export vsaY="10.108.125.209"
 
 #alias
 alias go2dev="ssh c4dev@10.244.124.248"
 alias go2spa="ssh root@10.141.44.71"
 alias go2vsa='ssh root@$vsa'
+alias go2vsaY='ssh root@$vsaY'
 alias ll="ls -al"
 alias tmux="tmux -2"
 #EOF111
