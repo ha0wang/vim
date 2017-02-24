@@ -200,12 +200,21 @@
 #customize environment variables
 export vsa="10.141.50.248"
 export vsaY="10.108.125.209"
-
+export dev="10.244.124.248"
+export cent="10.244.236.73"
+export sio1="10.244.236.22"
+export sio2="10.244.236.135"
+export sio3="10.244.236.119"
 #alias
-alias go2dev="ssh c4dev@10.244.124.248"
-alias go2spa="ssh root@10.141.44.71"
-alias go2vsa='ssh root@$vsa'
-alias go2vsaY='ssh root@$vsaY'
+alias 2dev="ssh c4dev@10.244.124.248"
+alias 2spa="ssh root@10.141.44.71"
+alias 2vsa='ssh root@$vsa'
+alias 2vsaY='ssh root@$vsaY'
+alias 2cent='ssh root@$cent'
+alias 2sio1='ssh root@$sio1'
+alias 2sio2='ssh root@$sio2'
+alias 2sio3='ssh root@$sio3'
+
 alias ll="ls -al"
 alias tmux="tmux -2"
 #EOF111
