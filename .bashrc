@@ -205,6 +205,9 @@ export cent="10.244.236.73"
 export sio1="10.244.236.22"
 export sio2="10.244.236.135"
 export sio3="10.244.236.119"
+export sio_gui="10.244.236.46"
+export vsaDa="10.141.49.105"
+export vsaDb="10.141.49.128"
 #alias
 alias 2dev="ssh c4dev@10.244.124.248"
 alias 2spa="ssh root@10.141.44.71"
@@ -214,6 +217,9 @@ alias 2cent='ssh root@$cent'
 alias 2sio1='ssh root@$sio1'
 alias 2sio2='ssh root@$sio2'
 alias 2sio3='ssh root@$sio3'
+alias 2siogui='ssh root@$sio_gui'
+alias 2vsaDa='ssh root@$vsaDa'
+alias 2vsaDb='ssh root@$vsaDb'
 
 alias ll="ls -al"
 alias tmux="tmux -2"
