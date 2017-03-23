@@ -208,6 +208,8 @@ export sio3="10.244.236.119"
 export sio_gui="10.244.236.46"
 export vsaDa="10.141.49.105"
 export vsaDb="10.141.49.128"
+export yuany5_test_a="10.244.236.32"
+export yuany5_test_b="10.244.236.39"
 #alias
 alias 2dev="ssh c4dev@10.244.124.248"
 alias 2spa="ssh root@10.141.44.71"
@@ -220,8 +222,10 @@ alias 2sio3='ssh root@$sio3'
 alias 2siogui='ssh root@$sio_gui'
 alias 2vsaDa='ssh root@$vsaDa'
 alias 2vsaDb='ssh root@$vsaDb'
-
+alias 2yuany5_test_a='ssh root@$yuany5_test_a'
+alias 2yuany5_test_b='ssh root@$yuany5_test_b'
 alias ll="ls -al"
 alias tmux="tmux -2"
-#EOF111
+alias getLicense='scp -rp c4dev@$dev:/c4shares/Public/license ~/license'
+
 

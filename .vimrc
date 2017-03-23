@@ -6,6 +6,8 @@ set laststatus=2              " Show airline by default
 :let g:CommandTMaxFiles=9999
 set nu
 map nt :NERDTree<CR>
+colo desert
+syntax on
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
